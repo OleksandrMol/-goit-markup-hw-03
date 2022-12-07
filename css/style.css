@@ -26,6 +26,7 @@ h5,
 h6,
 p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 /* Класс для обнуления базовых свойств у списков (ul) */
 .list {
@@ -76,6 +77,14 @@ body {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+.section {
+  padding: 94px 0;
+}
+.contener {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -172,15 +181,6 @@ header {
 
 .context-section {
   background-color: var(--background-section);
-}
-
-.section {
-  padding: 94px 0;
-}
-.contener {
-  width: 1200px;
-  padding: 15px;
-  margin: 0 auto;
 }
 
 /* Hero section */
@@ -329,7 +329,6 @@ header {
   color: var(--text-color);
 }
 .title-contener {
-  /* margin-top: 20px; */
   padding: 20px 24px;
   border-left: 1px solid var(--second-border-color);
   border-right: 1px solid var(--second-border-color);
@@ -337,7 +336,6 @@ header {
 }
 .title-project {
   margin-bottom: 4px;
-
   color: var(--title-color);
   font-weight: 700;
   font-size: 18px;
